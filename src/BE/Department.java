@@ -11,21 +11,21 @@ package BE;
  */
 public class Department
 {
-    private final int id;
+    private final int ID;
     private String name;
 
     public Department(int id, String name)
     {
-        this.id = id;
+        this.ID = id;
         this.name = name;
     }
 
     /**
-     * @return the id
+     * @return the ID
      */
     public int getId()
     {
-        return id;
+        return ID;
     }
 
     /**
@@ -47,7 +47,7 @@ public class Department
     @Override
     public String toString()
     {
-        return String.format("%4d %-50s", id, name);
+        return String.format("%4d %-50s", ID, name);
     }
     
     
